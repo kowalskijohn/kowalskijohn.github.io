@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 1.1em;
+    font-family: montserratbold ;
+    text-align: center;
+}
+
+h2{
+    font-family: montserratbold;
+    font-size: .9em;
+    font-variant: small-caps;
+    padding: .2em;
+}
+
+p{
+    font-family: montserratbold;
+    font-size: 4.6px;
+}
+
+.block{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.bottom-space{
+    margin-bottom: 4em;
+}
+
+.top-negative-space{
+    margin-top: -1em;
+}
+
+.top-space{
+    margin-top: 10em;
+}
+/**fonts**/
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.eot');
+    src: url('montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff'),
+         url('montserrat-bold-webfont.ttf') format('truetype'),
+         url('montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('montserrat-regular-webfont.eot');
+    src: url('montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('montserrat-regular-webfont.woff2') format('woff2'),
+         url('montserrat-regular-webfont.woff') format('woff'),
+         url('montserrat-regular-webfont.ttf') format('truetype'),
+         url('montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/****/
+/**custom**/
+.test {
+    background-color: black;
+    height: 5em;
+}
+.width{
+    width: 100%;
+}
+
+.overflow-visible{
+    overflow: visible;
+}
+
+.float{
+    -webkit-animation: float;
+    -moz-animation: float;
+    animation: float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-20px);}
+    
+}
+@-webkit-keyframes float{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-20px);}
+}
+@-moz-keyframes float{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-20px);}
+}
+/****/
+/**Grid**/
+.center {
+    text-align: center;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.col {
+    float: left;
+}
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+  .small-1 {
+    width: 8.33333%; }
+
+  .small-push-1 {
+    position: relative;
+    margin-left: 8.33333%;
+}
+
+  .small-2 {
+    width: 16.66667%; }
+
+  .small-3 {
+    width: 25%; }
+
+.small-push-3{
+    margin-left: 25%;
+}
+
+  .small-4 {
+    width: 33.33333%; }
+
+  .small-5 {
+    width: 41.66667%; }
+
+  .small-6 {
+    width: 50%; }
+
+  .small-7 {
+    width: 58.33333%; }
+
+  .small-8 {
+    width: 66.66667%; }
+
+  .small-9 {
+    width: 75%; }
+
+.small-push-9 {
+    position: relative;
+    margin-left: 75%; }
+
+  .small-10 {
+    width: 83.33333%; }
+
+  .small-11 {
+    width: 91.66667%; }
+
+  .small-12 {
+    width: 100%; }
+
+/**Tablet**/
+@media only screen and (min-width: 40em) {
+
+    h1{
+        font-size: 1.5em;
+    }
+    
+    h2{
+        font-size: 1.3em;
+    }
+    
+    p{
+        font-size: 6px;
+    }
+    
+    .top-space{
+        margin-top: 14em;
+    }
+    
+  .medium-1 {
+    width: 8.33333%; }
+
+  .medium-2 {
+    width: 16.66667%; }
+
+  .medium-3 {
+    width: 25%; }
+
+  .medium-4 {
+    width: 33.33333%; }
+    
+    .medium-push-4{
+        margin-left: 33.33333%;
+    }
+
+  .medium-5 {
+    width: 41.66667%; }
+
+  .medium-6 {
+    width: 50%; }
+
+  .medium-7 {
+    width: 58.33333%; }
+
+  .medium-8 {
+    width: 66.66667%; }
+
+  .medium-9 {
+    width: 75%; }
+
+  .medium-10 {
+    width: 83.33333%; }
+
+  .medium-11 {
+    width: 91.66667%; }
+
+  .medium-12 {
+    width: 100%; }
+}
+/**Desktop**/
+@media only screen and (min-width: 64em) {
+
+    h1{
+        font-size: 1.25em;
+    }
+    
+    h2{
+        font-size: 1em;
+    }
+    
+    p{
+        font-size: 4px;
+    }
+    
+    .top-space{
+        margin-top: 13em;
+    }
+    
+  .large-1 {
+    width: 8.33333%; }
+
+  .large-2 {
+    width: 16.66667%; }
+
+  .large-3 {
+    width: 25%; }
+
+  .large-4 {
+    width: 33.33333%; }
+
+  .large-5 {
+    width: 41.66667%; }
+
+    .large-push-5 {
+        margin-left: 41.66667%;
+    }
+    
+  .large-6 {
+    width: 50%; }
+
+  .large-7 {
+    width: 58.33333%; }
+
+  .large-8 {
+    width: 66.66667%; }
+
+  .large-9 {
+    width: 75%; }
+
+  .large-10 {
+    width: 83.33333%; }
+
+  .large-11 {
+    width: 91.66667%; }
+
+  .large-12 {
+    width: 100%; }
+}
+/****/
