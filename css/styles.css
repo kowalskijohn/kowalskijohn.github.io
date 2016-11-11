@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:300,400');
 body{
     margin: 0;
 }
 
 h1{
     font-size: 1.1em;
-    font-family: montserratbold ;
+    font-family: 'Yantramanav', sans-serif;
     text-align: center;
+    font-weight: 300;
 }
 
 h2{
-    font-family: montserratbold;
-    font-size: .9em;
-    font-variant: small-caps;
-    padding: .2em;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 6px;
+  font-weight: 300;
+
 }
 
 p{
@@ -25,7 +27,7 @@ p{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .bottom-space{
@@ -90,7 +92,7 @@ p{
 @keyframes float{
     0%{transform: translateY(0px);}
     50%{transform: translateY(-20px);}
-    
+
 }
 @-webkit-keyframes float{
     0%{transform: translateY(0px);}
@@ -179,19 +181,19 @@ p{
     h1{
         font-size: 1.5em;
     }
-    
+
     h2{
         font-size: 1.3em;
     }
-    
+
     p{
         font-size: 6px;
     }
-    
+
     .top-space{
         margin-top: 14em;
     }
-    
+
   .medium-1 {
     width: 8.33333%; }
 
@@ -203,7 +205,7 @@ p{
 
   .medium-4 {
     width: 33.33333%; }
-    
+
     .medium-push-4{
         margin-left: 33.33333%;
     }
@@ -238,19 +240,19 @@ p{
     h1{
         font-size: 1.25em;
     }
-    
+
     h2{
         font-size: 1em;
     }
-    
+
     p{
         font-size: 4px;
     }
-    
+
     .top-space{
         margin-top: 13em;
     }
-    
+
   .large-1 {
     width: 8.33333%; }
 
@@ -269,7 +271,7 @@ p{
     .large-push-5 {
         margin-left: 41.66667%;
     }
-    
+
   .large-6 {
     width: 50%; }
 
