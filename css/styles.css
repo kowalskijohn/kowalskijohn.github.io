@@ -4,15 +4,15 @@ body{
 }
 
 h1{
-    font-size: 1.1em;
+    font-size: 1.8em;
     font-family: 'Yantramanav', sans-serif;
     text-align: center;
     font-weight: 300;
 }
 
-h2{
+h5{
     font-family: 'Yantramanav', sans-serif;
-    font-size: 6px;
+    font-size: 12px;
   font-weight: 300;
 
 }
@@ -20,6 +20,15 @@ h2{
 p{
     font-family: montserratbold;
     font-size: 4.6px;
+}
+a{
+  text-decoration: none;
+  color: lightgrey;
+  transition: color .25s;
+  border-bottom: dotted 1px;
+}
+a:hover{
+  color: blue;
 }
 
 .block{
