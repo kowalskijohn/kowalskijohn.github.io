@@ -204,20 +204,21 @@ li{
 }
 /*Project Stuff
 */
-.project-display{transform: translate(40%,0px); transition: transform .25s;overflow: hidden;}
+.project-display{transform: translate(40%,0px); transition: transform .25s;overflow-x: hidden;}
 @media only screen and (min-width: 40em){
-  .project-display{transform: translate(0px,0px);}
+  .project-display{transform: translate(0px,0px);overflow-x: hidden;}
 }
 #cam-display{
-  transform: rotate(45deg) scale(1) translate(40%,-20%);transform-origin: center;
+  transform: rotate(45deg) scale(1) translate(40%,-20%);transform-origin: center;overflow-x: hidden;
 }
 @media only screen and (min-width: 40em){
-  #cam-display{transform:rotate(45deg) scale(0.8) translate(0px,0px);}
+  #cam-display{transform:rotate(45deg) scale(0.8) translate(0px,0px);overflow-x: hidden;}
 }
 #smith-display{
   transform: rotate(-90deg) translate(0px,45%);
   transform-origin: center;
+  overflow-x: hidden;
 }
 @media only screen and (min-width: 40em){
-  #smith-display{transform:rotate(0deg) translate(0px,0px);}
+  #smith-display{transform:rotate(0deg) translate(0px,0px);overflow-x: hidden;}
 }
