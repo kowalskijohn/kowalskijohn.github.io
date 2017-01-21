@@ -6,7 +6,7 @@ $(document).ready(function() {
       var counter = 1;
       $.each(data.recenttracks.track,function(i, item){
         if(counter === 1){
-          html += 'Currently listening to:<br/> <span><a href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
+          html += 'Currently listening to: <span><a href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
         }
         counter++;
       });

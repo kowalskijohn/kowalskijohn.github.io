@@ -1,0 +1,62 @@
+/*The Specimens
+*/
+@import url("webfontkit/type.css");
+
+html{font-size: 16px;}
+
+/*Type Setting Global
+*/
+h1,h2,h3,h4,h5,p{
+  margin: 0;
+  padding: 0;
+  transition: font-size .25s, line-height .25s, color .25s;
+}
+li{
+  margin-bottom: 9px;
+  padding: 0;
+  transition: font-size .25s, line-height .25s, color .25s;
+}
+h1 > b {font-family: 'gt_sectra_displaybold'; font-weight: normal; font-style: normal;}
+
+/*Mobile Type Setting
+*/
+h1{font-size: 1.7em; line-height: 1.35em;font-family: 'gt_sectra_regularregular'; font-weight: normal; font-style: normal;}
+h2{font-size: 1.375em; line-height: 1.750em;font-family: 'gt_sectra_displaybold'; font-weight: normal; font-style: normal;}
+h3{font-size: 1.125em; line-height: 1.438em;font-family: 'gt_sectra_regularregular'; font-weight: normal; font-style: normal;}
+h4{font-size: 1.000em; line-height: 1.313em;  font-family: 'gt_cinetype_regularregular'; font-weight: normal; font-style: normal;}
+h5{font-size: 0.625em; line-height: 1.125em; font-family: 'gt_cinetypemono'; font-weight: normal; font-style: normal;}
+p{font-size: 0.875em; line-height: 1.625em; font-family: 'gt_cinetype_regularregular'; font-weight: normal; font-style: normal;}
+li{font-size: 0.750em; line-height: 1.625em; font-family: 'gt_cinetype_regularregular'; font-weight: normal; font-style: normal;}
+button{font-size: ; line-height: ; font-family: 'gt_cinetypemono'; font-weight: normal; font-style: normal;}
+
+.menu{font-size: 3.000em; line-height: 1.1;font-family: 'gt_sectra_displaybold'; font-weight: normal; font-style: normal;}
+.menuP{font-size: 3.000em; line-height: 1.1;font-family: 'gt_sectra_displaybold'; font-weight: normal; font-style: normal;}
+
+/*Tablet Type Setting
+*/
+@media only screen and (min-width: 40em){
+  h1{font-size: 2.188em; line-height: 1.35em;}
+  h2{font-size: 1.625em; line-height: 2em;}
+  h3{font-size: 1.125em; line-height: 1.563em;}
+  h4{font-size: 1.125em; line-height: 1.625em;}
+  h5{font-size: 0.750em; line-height: 1.125em;}
+  p{font-size: 1.000em; line-height: 1.750em;}
+  li{font-size: 0.750em; line-height: 1.438em;}
+
+  .menu{font-size: 3.500em; line-height: 1.2em;}
+  .menuP{font-size: 3.500em; line-height: 1.2em;}
+}
+/*Desktop Type Setting
+*/
+@media only screen and (min-width: 64em){
+  h1{font-size: 2.500em; line-height: 1.35em;}
+  h2{font-size: 1.875; line-height: 2.313;}
+  h3{font-size: 1.125em; line-height: 1.625em;}
+  h4{font-size: 1.125em; line-height: 1.625em;}
+  h5{font-size: 0.750em; line-height: 1.125em;}
+  p{font-size: 1em; line-height: 1.750em;}
+  li{font-size: 0.750em; line-height: 1.625em;}
+
+  .menu{font-size: 4.000em; line-height: 1.3em;}
+  .menuP{font-size: 4.000em; line-height: 1.3em;}
+}
