@@ -204,6 +204,9 @@ li{
 }
 /*Project Stuff
 */
+.fuckoverflow{
+  overflow: hidden;
+}
 .project-display{transform: translate(40%,0px); transition: transform .25s;overflow-x: hidden;}
 @media only screen and (min-width: 40em){
   .project-display{transform: translate(0px,0px);overflow-x: hidden;}
