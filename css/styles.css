@@ -204,7 +204,7 @@ li{
 }
 /*Project Stuff
 */
-.project-display{transform: translate(40%,0px); transition: transform .25s;}
+.project-display{transform: translate(40%,0px); transition: transform .25s;overflow: hidden;}
 @media only screen and (min-width: 40em){
   .project-display{transform: translate(0px,0px);}
 }
