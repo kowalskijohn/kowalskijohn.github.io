@@ -1,0 +1,22 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+body{
+  display: none;
+}
+div{
+  display: none;
+}
+h2{
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-weight: 200;
+  opacity: .8;
+}
+#title{
+  position: fixed;
+  transform: translate(40px, 10px);
+}

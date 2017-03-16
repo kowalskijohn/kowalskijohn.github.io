@@ -22,7 +22,7 @@
 .test{background-color: lightgrey; height: 50px;}
 /* Body Styling Assets
 */
-body{margin: 0; padding: 0; background-color: #FFFFFF;}
+body{margin: 0; padding: 0; background-color: #FFFFFF;display: none;}
 
 img{width: 100%; position: relative;}
 
