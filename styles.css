@@ -11,6 +11,7 @@ object{
   right: 0;
   bottom: 0;
   left: 0;
+  transform: translate(0px,-20px);
 }
 
 h3{
@@ -19,15 +20,6 @@ h3{
   font-weight: 200;
   font-size: 0.9em;
   text-align: center;
-  display: none;
-}
-h5{
-  font-family: helvetica, sans-serif;
-  color: #F7F7F7;
-  font-weight: 200;
-  font-size: 0.7em;
-  text-align: center;
-  margin: 0;
   display: none;
 }
 
@@ -39,5 +31,5 @@ h5{
   right: 0;
   left: 0;
   bottom: 0;
-  transform: translate(0px,50px);
+  transform: translate(0px,20px);
 }
