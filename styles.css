@@ -16,9 +16,9 @@ object{
 
 h3{
   font-family: helvetica, sans-serif;
-  color: #F4F4F4;
+  color: #E2E2E2;
   font-weight: 200;
-  font-size: 0.9em;
+  font-size: 0.78em;
   text-align: center;
   display: none;
 }
@@ -31,5 +31,5 @@ h3{
   right: 0;
   left: 0;
   bottom: 0;
-  transform: translate(0px,0px);
+  transform: translate(0px,10px);
 }
