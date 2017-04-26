@@ -6,12 +6,12 @@
     <defs>
       <style>
         ellipse{
-          transition: fill .17s;
+          transition: fill .1s;
         }
       </style>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-4" fill="#0E0E0E">
+        <g id="Group-4" fill="#151515">
             <ellipse  cx="73.7366255" cy="120.355838" rx="3.64739993" ry="3.64416203"></ellipse>
             <ellipse  cx="73.7366255" cy="112.57506" rx="3.64739993" ry="3.64416203"></ellipse>
             <ellipse  cx="73.7366255" cy="104.794281" rx="3.64739993" ry="3.64416203"></ellipse>
@@ -204,7 +204,7 @@
       var i = 0;
 
       function load(){
-        var loadWhite = setInterval(function(){whiteCircles();},15);
+        var loadWhite = setInterval(function(){whiteCircles();},11);
         function whiteCircles(){
           if(i > 183){
             clearInterval(loadWhite);
@@ -219,7 +219,7 @@
       };
 
       function unLoad(){
-        var loadBlack = setInterval(function(){blackCircles();},15);
+        var loadBlack = setInterval(function(){blackCircles();},11);
         function blackCircles(){
           if(i > 183){
             clearInterval(loadBlack);
@@ -227,14 +227,12 @@
             load();
           }
           else{
-            circle[i].style.fill="#0E0E0E";
+            circle[i].style.fill="#151515";
             i ++;
           };
         };
       };
 
       load();
-
-
     </script>
 </svg>

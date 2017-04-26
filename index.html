@@ -1,19 +1,60 @@
 <!Doctype HTML>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#0E0E0E"/>
     <title>John Kowalski — Designer</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#151515"/>
     <link rel="shortcut icon" href="favicon.ico">
+    <!--Importing Google Fonts & jQuery-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--Importing GridLex — Flexbox grid system-->
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css">
+    <!--Linking Global and Local styles-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--Setting up Google Analytics-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92159207-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body>
-    <object data="heart.svg" type="image/svg+xml" height="50" width="50"></object>
-    <div class="frame">
-      <h3>coming soon</h3>
+    <!--Loading Screen-->
+    <object id="loading-object" data="img/heart.svg" type="image/svg+xml" height="40"></object>
+    <!--Main Page-->
+    <div id="main" class="row middle-xs">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-5">
+        <h3>Good <span id="greeting" class="type-it">Day</span></h3>
+        <p class="s-top-1">I’m John Kowalski—inquisitive UX/UI designer forging solutions for intricate humanistic problems. Maintaining a passion for reading books and writing code.</p>
+        <div class="row">
+          <div class="col-xs-10 col-sm-10 s-top-4">
+            <h4>My portfolio is under construction, in the mean time let’s shoot the shit about UX design, business trends, or vikings. Hit me up!</h4>
+            <h4 class="s-top-1"><a href="mailto:johnkowalski.design@gmail.com?Subject=Hello" target="_top">— Let’s get in touch</a></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-5 col-sm-offset-2 col-md-offset-1 m-text-left l-text-right">
+        <h3 id="location" class="s-hide m-show">43.616603,  -79.622117</h3>
+      </div>
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h3 class="dark-grey">© 2017 kowalskiforged.com</h3>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <h3 class="dark-grey text-right s-hide m-show">johnkowalski.design@gmail.com</h3>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <!--Linking Script-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
